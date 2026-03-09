@@ -1,10 +1,15 @@
 import random
 import string
 
-tamanho = int(input("Tamanho da senha: "))
+print("Gerador de Senhas")
+
+tamanho = int(input("Digite o tamanho da senha: "))
 
 caracteres = string.ascii_letters + string.digits + string.punctuation
 
-senha = "".join(random.choice(caracteres) for i in range(tamanho))
+senha = ""
+
+for i in range(tamanho):
+    senha += random.choice(caracteres)
 
 print("Senha gerada:", senha)
