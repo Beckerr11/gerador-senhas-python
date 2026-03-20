@@ -1,25 +1,38 @@
-# 🔐 Gerador de Senhas em Python
+# Password Generator Python
 
-Aplicação simples que gera senhas aleatórias utilizando Python.
+Secure password generator built with Python and the `secrets` module.
 
-## 📌 Funcionalidades
+## Highlights
 
-- Geração de senhas seguras
-- Escolha do tamanho da senha
+- Generates strong passwords from the terminal
+- Supports multiple passwords in one command
+- Optional symbol-free mode
+- Keeps minimum security rules by mixing uppercase, lowercase, and numbers
 
-## 🚀 Como executar
+## Stack
 
-Execute:
+- Python
+- `secrets`
+- `string`
 
-```
+## Run locally
+
+```bash
 python main.py
 ```
 
-## 🛠 Tecnologias
+Generate a longer password:
 
-- Python
-- Biblioteca random
+```bash
+python main.py --length 24
+```
 
-## 👨‍💻 Autor
+Generate three passwords without symbols:
 
-Douglas Aparecido da Silva
+```bash
+python main.py --count 3 --no-symbols
+```
+
+## Author
+
+Douglas Aparecido Silva
