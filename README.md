@@ -35,4 +35,4 @@ python main.py --count 3 --no-symbols
 
 ## Author
 
-Douglas Aparecido Silva
+Becker
